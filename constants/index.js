@@ -1,0 +1,1 @@
+export const API_ENDPOINT = 'https://takeaway-hero-api.herokuapp.com/graphql'
