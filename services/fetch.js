@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { AsyncStorage } from 'react-native'
+import {AsyncStorage} from 'react-native'
 // import { API_ENDPOINT } from 'constants'
 const API_ENDPOINT = 'https://takeaway-hero-api.herokuapp.com/graphql'
 // let url
@@ -10,8 +10,8 @@ const API_ENDPOINT = 'https://takeaway-hero-api.herokuapp.com/graphql'
 // }
 
 const instance = axios.create({
-  baseURL: API_ENDPOINT,
-  method: 'post'
+    baseURL: API_ENDPOINT,
+    method: 'post'
 })
 
 // instance.interceptors.request.use(
